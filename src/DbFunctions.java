@@ -24,6 +24,6 @@ public class DbFunctions {
             String sql = "CREATE TABLE " + table_name + "(empid Serinal, name varchar(200), address varchar(200))";
         } catch (Exception e){
             System.out.println(e);
-        }
+        }   
     }
 }
